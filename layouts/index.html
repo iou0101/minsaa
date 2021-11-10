@@ -7,7 +7,7 @@
     <title>منسأة</title>
 
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@600&family=Reem+Kufi:wght@600&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Amiri&family=Noto+Naskh+Arabic:wght@600&family=Reem+Kufi:wght@600&display=swap');
 
         header {
             display: flex;
@@ -33,12 +33,18 @@
         body {
             display: flex;
             flex-direction: column;
-            justify-content: space-between;
             background-color: rgb(0, 0, 0);
             color: white;
             margin: 0;
-            font-family: 'Noto Naskh Arabic';
             text-align: center;
+            min-height: 100%;
+            min-width: 100%;   
+            overflow-x: hidden;     
+        }
+
+        footer {
+            font-family: 'Noto Naskh Arabic';
+            justify-self: flex-end;
         }
 
         img {
@@ -46,12 +52,11 @@
             max-height: 10em;
         }
 
-        @media screen and (max-width: 450px) {
+        @media screen and (max-width: 550px) {
             img {
-                width: 30em;
-                justify-self: flex-end;
-                overflow-x: hidden;
+                width: fit-content;
             }
+
         }
 
         main {
@@ -60,6 +65,7 @@
             justify-content: center;
             align-items: center;
             font-size: xx-large;
+            font-family: 'Amiri';
         }
     </style>
 </head>
@@ -75,10 +81,10 @@
         <img src="https://pbs.twimg.com/profile_banners/1434978252246994948/1630965547/1500x500">
 
         <p>
-            عمّا قريــبٍ نُقلِــع!
+            عمّا قريبٍ نُقلع!
         </p>
     </main>
 
-    <footer>منسأة ١٤٤٣/٢٠٢١هـ</footer>
+    <footer>منسَأة ١٤٤٣/٢٠٢١هـ</footer>
 </body>
 </html>
