@@ -1,0 +1,11 @@
+body {
+    background-color: rgb(31, 30, 30);
+}
+
+p, h1, h2, h3, h4, h5, article, div {
+    color: white;
+}
+
+a {
+    color:rgb(122, 135, 255);
+}

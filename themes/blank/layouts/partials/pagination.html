@@ -1,0 +1,9 @@
+<div>
+{{ if .Paginator.HasPrev }}
+	<a href="{{ .Paginator.Prev.URL }}">الصفحة السابقة</a>
+{{ end }}
+{{ .Paginator.PageNumber }} من {{ .Paginator.TotalPages }}
+{{ if .Paginator.HasNext }}
+	<a href="{{ .Paginator.Next.URL }}">الصفحة التالية</a>
+{{ end }}
+</div>
